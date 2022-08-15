@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d239ea3-9c54-49fa-aa60-4427dd5cf382" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/java-advanced.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/ArrayToList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/IteratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/StackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/VectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/HashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/SortedMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/queue/AddBlockingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/queue/ArrayDequeueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/queue/ArrayToQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/queue/BlockingQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/queue/DequeueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/queue/LinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/queue/QueueBasics.java" afterDir="false" />
-    </list>
+    <list default="true" id="7d239ea3-9c54-49fa-aa60-4427dd5cf382" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

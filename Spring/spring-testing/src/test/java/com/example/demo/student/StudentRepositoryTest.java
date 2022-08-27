@@ -51,6 +51,7 @@ class StudentRepositoryTest {
                 "jamila@gmail.com",
                 Gender.FEMALE
         );
+
         underTest.save(student);
 
         // when

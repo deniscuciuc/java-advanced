@@ -1,6 +1,7 @@
 package com.example.demo.student;
 
 import com.example.demo.student.exception.BadRequestException;
+import com.example.demo.student.exception.StudentNotFoundException;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
@@ -110,7 +111,46 @@ class StudentServiceTest {
     }
 
     @Test
-    @Disabled
-    void deleteStudent() {
+    void shouldDeleteStudent() {
+        Student student = new Student(
+                21,
+                "Jamila",
+                "jamila@gmail.com",
+                Gender.FEMALE
+        );
+
+        given(studentRepository.existsById(student.getId()))
+                .willReturn(true);
+
+        underTest.deleteStudent(student.getId());
+
+        // when
+        ArgumentCaptor<Integer> studentArgumentCaptor = ArgumentCaptor.forClass(Integer.class);
+
+        verify(studentRepository)
+                .deleteById(studentArgumentCaptor.capture());
+
+
+        Integer exceptedStudentId = student.getId();
+        Integer capturedStudentId = studentArgumentCaptor.getValue();
+
+        assertThat(capturedStudentId)
+                .isEqualTo(exceptedStudentId);
+    }
+
+    @Test
+    void willThrowWhenUserDoesNotExists() {
+        Student student = new Student(
+                21,
+                "Jamila",
+                "jamila@gmail.com",
+                Gender.FEMALE
+        );
+
+        String expectedThrowMessage = "Student with id " + student.getId() + " does not exists";
+
+        assertThatThrownBy(() -> underTest.deleteStudent(student.getId()))
+                .isInstanceOf(StudentNotFoundException.class)
+                .hasMessageContaining(expectedThrowMessage);
     }
 }

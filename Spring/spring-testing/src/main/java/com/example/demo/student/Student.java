@@ -25,7 +25,7 @@ public class Student {
     @GeneratedValue(
             generator = "student_sequence",
             strategy = GenerationType.SEQUENCE)
-    private Long id;
+    private int id;
     @NotBlank
     @Column(nullable = false)
     private String name;

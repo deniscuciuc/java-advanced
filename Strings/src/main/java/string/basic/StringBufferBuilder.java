@@ -15,7 +15,6 @@ public class StringBufferBuilder {
 		
 		
 		
-		
 		System.out.println("Длина строки: " + strBuffer.length());
 		
 		System.out.println("Вытаскиваем строку: " + strBuffer.toString());

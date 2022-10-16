@@ -21,9 +21,8 @@ public class Sorting {
         System.out.println("Natural sorting: " + ints);
 
         // Soring with reverse
-        ints.sort((o1, o2) -> {
-            return (o2 - o1);
-        });
+        ints.sort((o1, o2) -> (o2 - o1));
+
         System.out.println("Reverse sorting: " + ints);
 
     }

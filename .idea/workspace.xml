@@ -2,8 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73760ab3-664f-4773-9728-70662c2860c6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/dependecyinjection/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/dependecyinjection/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/dependecyinjection/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/dependecyinjection/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/dependecyinjection/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/dependecyinjection/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/dependecyinjection/src/main/java/spring/guru/dependecyinjection/DependecyinjectionApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/dependecyinjection/src/main/java/spring/guru/dependecyinjection/controllers/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/dependecyinjection/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/dependecyinjection/src/test/java/spring/guru/dependecyinjection/DependecyinjectionApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/src/main/java/guru/springframework/introduction/IntroductionApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/src/main/java/guru/springframework/introduction/bootstrap/BootStrapData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/src/main/java/guru/springframework/introduction/controllers/AuthorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/src/main/java/guru/springframework/introduction/controllers/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/src/main/java/guru/springframework/introduction/controllers/PublisherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/src/main/java/guru/springframework/introduction/domain/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/src/main/java/guru/springframework/introduction/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/src/main/java/guru/springframework/introduction/domain/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/src/main/java/guru/springframework/introduction/repositories/AuthorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/src/main/java/guru/springframework/introduction/repositories/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/src/main/java/guru/springframework/introduction/repositories/PublisherRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/src/main/resources/templates/authors/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/src/main/resources/templates/books/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/introduction/src/test/java/guru/springframework/introduction/IntroductionApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/petclinic/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/petclinic/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/petclinic/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/petclinic/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/petclinic/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/petclinic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/petclinic/src/main/java/spring/guru/petclinic/PetclinicApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/petclinic/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/spring-guru-course/petclinic/src/test/java/spring/guru/petclinic/PetclinicApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings/src/main/java/string/basic/StringBufferBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/src/main/java/string/basic/StringBufferBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +73,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Repositories/java-advanced/Spring/spring-testing"
+    "last_opened_file_path": "D:/Repositories/java-advanced/CollectionsFramework"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

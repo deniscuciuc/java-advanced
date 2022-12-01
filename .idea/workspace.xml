@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73760ab3-664f-4773-9728-70662c2860c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Generics/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generics/src/main/java/bounded/GenericBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generics/src/main/java/methods/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generics/src/main/java/methods/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generics/src/main/java/raw/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generics/src/main/java/raw/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generics/src/main/java/types/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generics/src/main/java/types/GenericBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generics/src/main/java/types/OrderedPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generics/src/main/java/types/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generics/src/main/java/types/TestMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="73760ab3-664f-4773-9728-70662c2860c6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,14 +15,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/DCUCIUC/Desktop/Repositories/java-advanced/Spring/spring-guru-course/dependecyinjection",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,6 +36,7 @@
       <workItem from="1669514275715" duration="345000" />
       <workItem from="1669533023270" duration="78000" />
       <workItem from="1669533187633" duration="6000" />
+      <workItem from="1669804170925" duration="321000" />
     </task>
     <servers />
   </component>

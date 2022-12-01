@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import spring.guru.dependecyinjection.controllers.MyController;
+import spring.guru.dependecyinjection.controllers.PropertyInjectedController;
 
 @SpringBootApplication
 public class DependecyinjectionApplication {
@@ -16,5 +17,10 @@ public class DependecyinjectionApplication {
 		String greeting = myController.sayHello();
 
 		System.out.println(greeting);
+
+		System.out.println("_________ Property");
+
+		PropertyInjectedController propertyInjectedController = (PropertyInjectedController) ctx.getBean("propertyInjectedController");
+		System.out.println(propertyInjectedController.getGreeting());
 	}
 }

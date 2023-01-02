@@ -1,0 +1,23 @@
+<!--
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm" version="2.0">
+    <description>XML Student Mapping</description>
+
+    <entity class="org.learn.model.Student">
+        <table name="students"/>
+
+        <attributes>
+            <id name="id">
+                <generated-value strategy="AUTO"/>
+            </id>
+
+            <basic name="firstName">
+                <column name="first_name" length="150"/>
+            </basic>
+
+            <basic name="lastName">
+                <column name="last_name" length="150"/>
+            </basic>
+
+        </attributes>
+    </entity>
+</entity-mappings>-->

@@ -2,6 +2,7 @@ package org.learn.dao.impl;
 
 import org.learn.dao.StudentDAO;
 import org.learn.dao.impl.exceptions.EntityNotFoundException;
+import org.learn.model.School;
 import org.learn.model.Student;
 
 import javax.persistence.EntityManager;
@@ -76,5 +77,17 @@ public class StudentDAOImpl implements StudentDAO {
         entityManager.getTransaction().commit();
 
         return students;
+    }
+
+    @Override
+    public Student addSchool(Long id, School school) {
+        entityManager.getTransaction().begin();
+
+        Student student = findById(id);
+        student.setSchool(school);
+
+        entityManager.getTransaction().commit();
+
+        return null;
     }
 }

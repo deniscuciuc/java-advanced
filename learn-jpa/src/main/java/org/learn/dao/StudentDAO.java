@@ -1,5 +1,6 @@
 package org.learn.dao;
 
+import org.learn.model.School;
 import org.learn.model.Student;
 
 import java.util.List;
@@ -15,4 +16,6 @@ public interface StudentDAO {
     Student findById(Long id);
 
     List<Student> findAll();
+
+    Student addSchool(Long id, School school);
 }

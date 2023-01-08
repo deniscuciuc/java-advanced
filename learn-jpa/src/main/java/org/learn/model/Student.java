@@ -16,6 +16,9 @@ public class Student {
     @Column(name = "last_name", nullable = false, length = 250)
     private String lastName;
 
+    @OneToOne
+    private School school;
+
     public Student() {
 
     }
@@ -24,6 +27,12 @@ public class Student {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
+    }
+
+    public Student(String firstName, String lastName, School school) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.school = school;
     }
 
     public Student(String firstName, String lastName) {
@@ -55,12 +64,21 @@ public class Student {
         this.lastName = lastName;
     }
 
+    public School getSchool() {
+        return school;
+    }
+
+    public void setSchool(School school) {
+        this.school = school;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
+                ", school=" + school +
                 '}';
     }
 }
